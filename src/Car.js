@@ -13,9 +13,12 @@ import { Mesh } from 'three';
 \'-;__/'.___.'[__|  \_][___||__]'.__.'   \__/\__/ [___]'.__.' '.__.;__].',__` [___||__||__]'.__.'[___||__]\__/[\__) )
                                                                       ( ( __))
 */
-// based on "Chevrolet Corvette (C7)" (https://sketchfab.com/3d-models/chevrolet-corvette-c7-2b509d1bce104224b147c81757f6f43a) 
-// by Martin Trafas (https://sketchfab.com/Bexxie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 
+/*
+// .  Thx Domenicobrz for tutorials
+//    based on "Chevrolet Corvette (C7)" (https://sketchfab.com/3d-models/chevrolet-corvette-c7-2b509d1bce104224b147c81757f6f43a) 
+//    by Martin Trafas (https://sketchfab.com/Bexxie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
++/
 
 export function Car () {
     const gltf = useLoader(
