@@ -15,9 +15,10 @@ import { Boxes } from "./Boxes"
 import { Bloom,
   ChromaticAberration,
   EffectComposer,
-  // DepthOfField
+  DepthOfField
 } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing"
+
 
 /*
                __                                  __               __                                     _
@@ -110,7 +111,7 @@ function CarShow() {
   );
 }
       <EffectComposer>
-      {/* <DepthOfField focusDistance={0.0035} focalLength={0.01} bokehScale={3} height={480} /> */}
+      <DepthOfField focusDistance={0.9035} focalLength={0.91} bokehScale={9} height={480} />
       <Bloom
         blendFunction={BlendFunction.ADD}
         intensity={1.3} //  bloom intensity
