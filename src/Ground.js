@@ -3,8 +3,11 @@ import { MeshReflectorMaterial } from "@react-three/drei";
 import { useFrame, useLoader } from "@react-three/fiber";
 import { LinearEncoding, RepeatWrapping, TextureLoader } from "three";
 
+// thanks to https://polyhaven.co
+
 export function Ground() {
-    // thanks to https://polyhaven.com
+    m
+
 
     const [roughness, normal] = useLoader(TextureLoader, [
         process.env.PUBLIC_URL + "textures/terrain-roughness.jpg",
